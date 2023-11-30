@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: const Color(0xfffef6db),
       appBar: AppBar(
         backgroundColor: const Color(0xff46322b),
-        title: const Text('Toku' ),
+        title: const Text('English' ),
       ),
       body: Column(
         
