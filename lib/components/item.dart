@@ -14,8 +14,11 @@ class Item extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  color: const Color(0xfffff4db),
-                  child: Image.asset(number.image!,)),
+                  color: Colors.white,
+                  child: Image.asset(number.image!,
+                  width: 100,
+                  height: 100,
+                  )),
                 Padding(
                   padding: const EdgeInsets.only(left: 16),
                   child: Column(
